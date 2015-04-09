@@ -4,8 +4,7 @@ import spock.lang.Specification
 import spock.lang.Unroll
 
 class SpockExample extends Specification {
-
-    def "Test math class"() {
+    def "maximum of two numbers"() {
 
         expect:
 
@@ -18,5 +17,4 @@ class SpockExample extends Specification {
         4   |   1   |   4
         3   |   3   |   3
     }
-
 }
