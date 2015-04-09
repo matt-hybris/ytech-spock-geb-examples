@@ -13,7 +13,7 @@ class GebSpockExample extends GebReportingSpec {
 
         when: "Searching for powershot"
 
-        common.searchForText "Powershot"
+        common.searchForText 'Powershot'
 
         then: "There should be 4 results"
 
