@@ -12,7 +12,7 @@ Browser.drive {
     searchInput.value 'Powershot'
     searchInput << Keys.ENTER
 
-    results = find('div.productListItem')
+    results = find 'div.productListItem'
 
     assert results.size() == 4
 
